@@ -4,15 +4,6 @@
 
 This project implements a simplified Union File System using FUSE (Filesystem in Userspace).
 
-It merges two directories:
-
-* **Lower directory** (read-only base layer)
-* **Upper directory** (writable layer)
-
-The mounted directory provides a unified view of both.
-
----
-
 ## Features
 
 ### 1. Merged View
